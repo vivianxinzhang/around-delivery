@@ -25,7 +25,6 @@ class Main extends Component {
                         </div>
                     </Route>
 
-
                     <Route path = '/home' component={Home} />
                 </Switch>
             </div>

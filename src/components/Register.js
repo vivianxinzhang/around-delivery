@@ -185,7 +185,7 @@ class RegistrationForm extends Component {
                     .then((response) => {
                         console.log(response);
                         if (response.statusText === "OK") {
-                            console.log('Login succeed!');
+                            console.log(response.statusText);
                             return response.statusText;
                         }
                         throw new Error(response.statusText);
